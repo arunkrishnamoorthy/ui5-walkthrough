@@ -1,3 +1,10 @@
-sap.ui.define([], function() {
-    alert("This is a message from an UI5 module");
+sap.ui.define([
+    "sap/m/Text",
+    "sap/m/Button"
+], function(Text,Button) {
+   
+    new Text("demoText", {
+        text: "This is a demo text from an UI5 control"
+    }).placeAt("content");
+    
 });
