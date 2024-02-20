@@ -1,7 +1,7 @@
 {
     "_version": "1.61.0",
     "sap.app": {
-        "id": "ui5-walkthrough",
+        "id": "ui5.walkthrough",
         "title": "UI5 Walkthrough",
         "type": "application",
         "applicationVersion": {
