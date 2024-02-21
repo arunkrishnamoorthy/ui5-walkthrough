@@ -1,0 +1,9 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc"
+      xmlns="sap.m">
+    <Panel headerText="This is a header text from xml view">
+        <content>
+            <Button text="Display"></Button>
+        </content>    
+    </Panel>
+</mvc:View>
+

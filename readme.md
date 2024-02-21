@@ -25,3 +25,13 @@
 
 8. Created a manifest file. manifest.json 
     
+# Step 4: Views
+
+ui5 
+    walkthrough 
+
+            view 
+
+                main.view.xml
+
+ui5.walkthrough.view.main
