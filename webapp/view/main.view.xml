@@ -1,10 +1,10 @@
 <mvc:View xmlns:mvc="sap.ui.core.mvc"
       xmlns="sap.m"
       controllerName="ui5.walkthrough.controller.main">
-    <Panel headerText="This is a header text from xml view">
+    <Panel headerText="{i18n>panelTitle}">
         <content>
-            <Input value="{/name}" description="Hello {/name}" />
-            <Button text="Display" press=".onPressDisplay"></Button>
+            <Input value="{/name}" description="{i18n>description} {/name}" />
+            <Button text="{i18n>buttonText}" press=".onPressDisplay"></Button>
         </content>    
     </Panel>
 </mvc:View>
