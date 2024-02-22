@@ -1,8 +1,9 @@
 <mvc:View xmlns:mvc="sap.ui.core.mvc"
-      xmlns="sap.m">
+      xmlns="sap.m"
+      controllerName="ui5.walkthrough.controller.main">
     <Panel headerText="This is a header text from xml view">
         <content>
-            <Button text="Display"></Button>
+            <Button text="Display" press=".onPressDisplay"></Button>
         </content>    
     </Panel>
 </mvc:View>
