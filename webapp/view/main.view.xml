@@ -3,6 +3,7 @@
       controllerName="ui5.walkthrough.controller.main">
     <Panel headerText="This is a header text from xml view">
         <content>
+            <Input value="{/name}" description="Hello {/name}" />
             <Button text="Display" press=".onPressDisplay"></Button>
         </content>    
     </Panel>
